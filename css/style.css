@@ -6,7 +6,17 @@ body {
     padding: 5px;
     margin: 15px;
     font-size: 25px;
-    font-family:Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;}
+p {
+    font-family: 'Poppins', Arial, sans-serif;
+        font-size: 60%;
+        line-height: 1.9;
+        color: #333;
+        text-align: justify;
+            text-justify: inter-word;
+            hyphens: auto;
+        letter-spacing: 0.5px;
+        padding: 5px;
 }
 
 h1 {
@@ -60,7 +70,7 @@ figcaption {
     font-weight: 600;
     color: #222;
     letter-spacing: 1px;
-    font-family: 'Poppins', Arial, sans-serif;
+    
 }
 
 @media (min-width: 772px) {
@@ -82,7 +92,13 @@ figcaption {
 }
 
 @media (min-width: 992px) {
-    img {
+    p{
+      font-size: 80%;
+    }
+    .grid figure:nth-child(3n) {
+        grid-column: 1 / span 2;
+    }
+    figure img {
         border-radius: 0;
     }
 }
